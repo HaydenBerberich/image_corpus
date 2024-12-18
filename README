@@ -1,0 +1,16 @@
+usage: image_corpus.py [-h] [-a] [-g] [-r ROWS] [-c COLS] [-t {jpg,tif,bmp,png}] indir [outdir]
+
+Process images for an image corpus.
+
+positional arguments:
+  indir                 Input directory
+  outdir                Output directory
+
+options:
+  -h, --help            show this help message and exit
+  -a, --aspect          Preserve aspect ratio
+  -g, --grayscale       Save as grayscale
+  -r ROWS, --rows ROWS  Number of rows in output image
+  -c COLS, --cols COLS  Number of columns in output image
+  -t {jpg,tif,bmp,png}, --type {jpg,tif,bmp,png}
+                        Output image type
